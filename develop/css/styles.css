@@ -47,7 +47,9 @@ select {
   *,
   *::before,
   *::after {
+    -webkit-animation-duration: 0.01ms \!important;
     animation-duration: 0.01ms \!important;
+    -webkit-animation-iteration-count: 1 \!important;
     animation-iteration-count: 1 \!important;
     transition-duration: 0.01ms \!important;
     scroll-behavior: auto \!important;
@@ -233,6 +235,7 @@ body {
     grid-template-columns: 4.9375rem repeat(6, minmax(auto, 11.75rem)) 4.9375rem;
     grid-template-rows: repeat(4, minmax(auto, 8.0313rem));
     row-gap: 2rem;
+    -moz-column-gap: 1rem;
     column-gap: 1rem;
 
     width: clamp(23ch, 100%, 145ch);
