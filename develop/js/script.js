@@ -7,7 +7,7 @@ function elementFromHtml(html) {
 }
 
 const card1 = elementFromHtml(`
-<div class="card">
+<div class="card card--supervisor">
 <div class="card__content">
   <h2 class="title--secondary">Supervisor</h2>
   <span class="card__text"
@@ -25,7 +25,7 @@ const card1 = elementFromHtml(`
 </div>
 `);
 const card2 = elementFromHtml(`
-<div class="card">
+<div class="card card--team-builder">
 <div class="card__content">
   <h2 class="title--secondary">Team Builder</h2>
   <span class="card__text"
@@ -43,7 +43,7 @@ const card2 = elementFromHtml(`
 </div>
 `);
 const card3 = elementFromHtml(`
-<div class="card">
+<div class="card card--karma">
 <div class="card__content">
   <h2 class="title--secondary">Karma</h2>
   <span class="card__text"
@@ -61,7 +61,7 @@ const card3 = elementFromHtml(`
 </div>
 `);
 const card4 = elementFromHtml(`
-<div class="card">
+<div class="card card--calculator">
 <div class="card__content">
   <h2 class="title--secondary">Calculator</h2>
   <span class="card__text"
